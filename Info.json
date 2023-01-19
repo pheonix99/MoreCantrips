@@ -1,0 +1,11 @@
+{
+  "Id": "MoreCantrips",
+  "DisplayName": "MoreCantrips",
+  "Author": "",
+  "Version": "0.1",
+  "ManagerVersion": "0.21.3",
+  "Requirements": [],
+  "AssemblyName": "MoreCantrips.dll",
+  "EntryMethod": "MoreCantrips.Main.Load"
+}
+
