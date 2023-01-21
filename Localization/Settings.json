@@ -1,0 +1,78 @@
+﻿[
+  {
+    "Key": "MoreCantrips.Settings.Title",
+    "ProcessTemplates": false,
+    "enGB": "More Cantrips"
+  },
+  {
+    "Key": "MoreCantrips.Settings.Firebolt",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Firebolt"
+  },
+  {
+    "Key": "MoreCantrips.Settings.Firebolt.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Firebolt, a ranged touch attack dealing 1d3 fire damage. By default it is learned by magus, and classes using the wizard spell list"
+  },
+  {
+    "Key": "MoreCantrips.Settings.BurningTouch",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Firebolt"
+  },
+  {
+    "Key": "MoreCantrips.Settings.BurningTouch.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Burning Touch, a melee touch attack dealing 1d4 fire damage. By default it is learned by magus, and classes using the wizard spell list"
+  },
+  {
+    "Key": "MoreCantrips.Settings.PainfulNote",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Painful Note"
+  },
+  {
+    "Key": "MoreCantrips.Settings.PainfulNote.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Painful Note, a ranged touch attack dealing 1d2 sonic damage. No classes learn it by default - use the proliferation settings in the core module."
+  },
+  {
+    "Key": "MoreCantrips.Settings.DissonantTouch",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Dissonant Touch"
+  },
+  {
+    "Key": "MoreCantrips.Settings.DissonantTouch.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Dissonant Touch, a melee touch attack dealing 1d3 sonic damage. No classes learn it by default - use the proliferation settings in the core module."
+  },
+  {
+    "Key": "MoreCantrips.Settings.LesserCorrosiveTouch",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Lesser Corrosive Touch"
+  },
+  {
+    "Key": "MoreCantrips.Settings.LesserCorrosiveTouch.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Lesser Corrosive Touch, a melee touch attack dealing 1d4 acid damage. By default it is learned by magus, and classes using the wizard spell list."
+  },
+  {
+    "Key": "MoreCantrips.Settings.LesserShockingGrasp",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Lesser Shocking Grasp"
+  },
+  {
+    "Key": "MoreCantrips.Settings.LesserShockingGrasp.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Lesser Shocking Grasp, a melee touch attack dealing 1d4 electricity damage. By default it is learned by magus, and classes using the wizard spell list."
+  },
+  {
+    "Key": "MoreCantrips.Settings.FrostyTouch",
+    "ProcessTemplates": false,
+    "enGB": "Add Cantrip: Lesser Frosty Touch"
+  },
+  {
+    "Key": "MoreCantrips.Settings.FrostyTouch.Desc",
+    "ProcessTemplates": false,
+    "enGB": "Adds Frosty Touch, a melee touch attack dealing 1d4 cold damage. By default it is learned by magus, and classes using the wizard spell list."
+  }
+
+]

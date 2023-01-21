@@ -1,0 +1,93 @@
+[
+
+  {
+    "Key": "Firebolt.Name",
+    "enGB": "Firebolt"
+  },
+  {
+    "Key": "Firebolt.Desc",
+    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}"
+  },
+  {
+    "Key": "Firebolt.Desc2",
+    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+  },
+  {
+    "Key": "BurningTouch.Name",
+    "enGB": "Burning Touch"
+  },
+  {
+    "Key": "BurningTouch.Desc",
+    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}"
+  },
+  {
+    "Key": "BurningTouch.Desc2",
+    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+
+  },
+  {
+    "Key": "PainfulNote.Name",
+    "enGB": "Painful Note"
+  },
+  {
+    "Key": "PainfulNote.Desc",
+    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}"
+  },
+  {
+    "Key": "PainfulNote.Desc2",
+    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+  },
+  {
+    "Key": "DissonantTouch.Name",
+    "enGB": "Dissonant Touch"
+  },
+  {
+    "Key": "DissonantTouch.Desc",
+    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}."
+  },
+  {
+    "Key": "DissonantTouch.Desc2",
+    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+
+  },
+
+  {
+    "Key": "LesserCorrosiveTouch.Name",
+    "enGB": "Lesser Corrosive Touch"
+  },
+  {
+    "Key": "LesserCorrosiveTouch.Desc",
+    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}."
+  },
+  {
+    "Key": "LesserCorrosiveTouch.Desc2",
+    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+
+  },
+  {
+    "Key": "LesserShockingGrasp.Name",
+    "enGB": "Lesser Shocking Grasp"
+  },
+  {
+    "Key": "LesserShockingGrasp.Desc",
+    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}."
+  },
+  {
+    "Key": "LesserShockingGrasp.Desc2",
+    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+
+  },
+  {
+    "Key": "FrostyTouch.Name",
+    "enGB": "Frosty Touch"
+  },
+  {
+    "Key": "FrostyTouch.Desc",
+    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}."
+  },
+  {
+    "Key": "FrostyTouch.Desc2",
+    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+
+  }
+]
