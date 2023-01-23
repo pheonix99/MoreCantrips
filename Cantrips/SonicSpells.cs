@@ -18,7 +18,7 @@ namespace MoreCantrips.Cantrips
             string painfulNoteGUID = "EA38928D3CF342CAB80A335D2AE44D72";
        
             var painfulNoteGuid = BlueprintTool.Get<BlueprintAbility>("8e7cfa5f213a90549aadd18f8f6f4664").Icon;//EarPiercingscream
-            var airbullet = "31f668b12011e344aa542aa07ab6c8d9";
+            var airbullet = "e093b08cd4cafe946962b339faf2310a";
 
             AttackCantripFactory.ConfigureBeam(() => { return Settings.IsEnabled("PainfulNote"); }, "PainfulNote", painfulNoteGUID, Kingmaker.Enums.Damage.DamageEnergyType.Sonic, airbullet, painfulNoteGuid);
        
