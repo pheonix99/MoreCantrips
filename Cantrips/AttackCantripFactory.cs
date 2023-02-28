@@ -13,6 +13,8 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using PhoenixsCantrips.Spells;
+using BlueprintCore.Blueprints.CustomConfigurators.Classes;
+using Kingmaker.Designers.Mechanics.Facts;
 
 namespace MoreCantrips.Cantrips
 {
@@ -65,7 +67,7 @@ namespace MoreCantrips.Cantrips
                     cantrip.AddToSpellLists(0, new SpellList[] { SpellList.Magus, SpellList.Wizard });
                 }
                 var made = cantrip.Configure();
-
+                AddToItems(made.ToReference<BlueprintAbilityReference>());
                 PhoenixsCantrips.Spells.RegisterCantrips.RegisterRay(damage, guid);
                 Logger.Log($"Finished Ranged Cantrip: {name}");
 
@@ -111,7 +113,9 @@ namespace MoreCantrips.Cantrips
                 {
                     touch.AddAbilitySpawnFx(Kingmaker.UnitLogic.Abilities.Components.Base.AbilitySpawnFxAnchor.SelectedTarget, delay: 0.0f, orientationAnchor: Kingmaker.UnitLogic.Abilities.Components.Base.AbilitySpawnFxAnchor.None, orientationMode: Kingmaker.UnitLogic.Abilities.Components.Base.AbilitySpawnFxOrientation.Copy, weaponTarget: Kingmaker.UnitLogic.Abilities.Components.Base.AbilitySpawnFxWeaponTarget.None, prefabLink: touchprefabasset);
                 }
-                touch.Configure();
+               var done = touch.Configure().ToReference<BlueprintAbilityReference>();
+
+                AddToItems(done);
 
 
                 var cantrip = AbilityConfigurator.NewSpell(name + "Cast", spellGUID, Kingmaker.Blueprints.Classes.Spells.SpellSchool.Evocation, false, descriptor);
@@ -140,7 +144,7 @@ namespace MoreCantrips.Cantrips
 
                 var made = cantrip.Configure();
                 RegisterCantrips.RegisterTouch(damage, spellGUID);
-
+                AddToItems(made.ToReference<BlueprintAbilityReference>());
                 Logger.Log($"Finished Melee Cantrip: {name}");
 
             }
@@ -152,7 +156,73 @@ namespace MoreCantrips.Cantrips
             }
         }
 
+        private static void AddToItems(BlueprintAbilityReference done)
+        {
+            FeatureConfigurator.For("aa84d44512e5ef64aa92f79be5aa8734").EditComponent<DiceDamageBonusOnSpell>(x =>
+            {
+                x.m_Spells = x.m_Spells.Append(done).ToArray();
 
+            }).Configure();
+
+            FeatureConfigurator.For("08d677d6ed2c49b469e7bd1385826dc9").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+            FeatureConfigurator.For("3c39db1ef0e699a4a84b2f30189ec271").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("e2efab2d89e6e1a4993c81a6b098e670").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("9dcf0f276f741474cab1a6ad771c06a7").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+
+            FeatureConfigurator.For("324defe6bf85dab4d9e1d85a63c1d35a").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+            FeatureConfigurator.For("0592284ca75c8f546be126c130726531").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("c54708f815850ea4f9a96e091bcbccac").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("ac32d1c08f04edc4fb99a3314fabb41b").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("23de5684062b01f49a2f310103db5b60").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+
+            FeatureConfigurator.For("9dc99e47a71654e41be9a408fa3914de").EditComponent<AutoMetamagic>(x =>
+            {
+                x.Abilities.Add(done);
+
+            }).Configure();
+        }
 
     }
 }
