@@ -2,92 +2,113 @@
 
   {
     "Key": "Firebolt.Name",
-    "enGB": "Firebolt"
+    "enGB": "Firebolt",
+    "zhCN": "火焰箭"
   },
   {
     "Key": "Firebolt.Desc",
-    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}"
+    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}",
+    "zhCN": "你发射一枚火焰制成的弩箭。你必须进行一次成功的远程{g|Encyclopedia:TouchAttack}接触攻击{/g}. 这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}火焰伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
   },
   {
     "Key": "Firebolt.Desc2",
-    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You cause a bolt of fire to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3).",
+    "zhCN": "你发射一枚火焰制成的弩箭。你必须进行一次成功的远程{g|Encyclopedia:TouchAttack}接触攻击{/g}. 这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}火焰伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
   },
   {
     "Key": "BurningTouch.Name",
-    "enGB": "Burning Touch"
+    "enGB": "Burning Touch",
+    "zhCN": "燃烧之触"
   },
   {
     "Key": "BurningTouch.Desc",
-    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}"
+    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}",
+    "zhCN": "你的手中燃起火焰，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}火焰伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
   },
   {
     "Key": "BurningTouch.Desc2",
-    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You sheath your hand in fire and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}fire damage{/g}, plus another die per two caster levels past first (maximum 6d3).",
+    "zhCN": "你的手中燃起火焰，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}火焰伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
 
   },
   {
     "Key": "PainfulNote.Name",
-    "enGB": "Painful Note"
+    "enGB": "Painful Note",
+    "zhCN": "苦痛单音"
   },
   {
     "Key": "PainfulNote.Desc",
-    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}"
+    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}",
+    "zhCN": "你发射一束破坏性的共振。你必须进行一次成功的远程{g|Encyclopedia:TouchAttack}接触攻击{/g}. 这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d2{/g}点{g|Encyclopedia:Energy_Damage}音波伤害{/g}，每2CL额外增加一个伤害骰（最高6d2）。"
   },
   {
     "Key": "PainfulNote.Desc2",
-    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You cause a bolt of destructive resonance to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d2{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d2).",
+    "zhCN": "你发射一束破坏性的共振。你必须进行一次成功的远程{g|Encyclopedia:TouchAttack}接触攻击{/g}. 这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d2{/g}点{g|Encyclopedia:Energy_Damage}音波伤害{/g}，每2CL额外增加一个伤害骰（最高6d2）。"
   },
   {
     "Key": "DissonantTouch.Name",
-    "enGB": "Dissonant Touch"
+    "enGB": "Dissonant Touch",
+    "zhCN": "不谐之触"
   },
   {
     "Key": "DissonantTouch.Desc",
-    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}."
+    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}.",
+    "zhCN": "你的手中发出一种破坏性振动，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}音波伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
   },
   {
     "Key": "DissonantTouch.Desc2",
-    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You sheath your hand in destructive vibrations and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}sonic damage{/g}, plus another die per two caster levels past first (maximum 6d3).",
+    "zhCN": "你的手中发出一种破坏性振动，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}音波伤害{/g}，每2CL额外增加一个伤害骰（最高6d3）。"
 
   },
 
   {
     "Key": "LesserCorrosiveTouch.Name",
-    "enGB": "Lesser Corrosive Touch"
+    "enGB": "Lesser Corrosive Touch",
+    "zhCN": "次级腐蚀之触"
   },
   {
     "Key": "LesserCorrosiveTouch.Desc",
-    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}."
+    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}.",
+    "zhCN": "你的手中涌出酸液，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}酸蚀伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
   },
   {
     "Key": "LesserCorrosiveTouch.Desc2",
-    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You sheath your hand in acid and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}acid damage{/g}, plus another die per two caster levels past first (maximum 6d4).",
+    "zhCN": "你的手中涌出酸液，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}酸蚀伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
 
   },
   {
     "Key": "LesserShockingGrasp.Name",
-    "enGB": "Lesser Shocking Grasp"
+    "enGB": "Lesser Shocking Grasp",
+    "zhCN": "次级电爪"
   },
   {
     "Key": "LesserShockingGrasp.Desc",
-    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}."
+    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}.",
+    "zhCN": "你的手中放出电流，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}电击伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
   },
   {
     "Key": "LesserShockingGrasp.Desc2",
-    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You sheath your hand in electricty and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}electricty damage{/g}, plus another die per two caster levels past first (maximum 6d4).",
+    "zhCN": "你的手中放出电流，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}电击伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
 
   },
   {
     "Key": "FrostyTouch.Name",
-    "enGB": "Frosty Touch"
+    "enGB": "Frosty Touch",
+    "zhCN": "冻寒之触"
   },
   {
     "Key": "FrostyTouch.Desc",
-    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}."
+    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}.",
+    "zhCN": "你的手中凝结出冰霜，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}寒冷伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
   },
   {
     "Key": "FrostyTouch.Desc2",
-    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}, plus another die per two caster levels past first (maximum 6d3)."
+    "enGB": "You sheath your hand in ice and make a touch attack against the target. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}, plus another die per two caster levels past first (maximum 6d4).",
+    "zhCN": "你的手中凝结出冰霜，对目标进行一次近战接触攻击。这个{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d4{/g}点{g|Encyclopedia:Energy_Damage}寒冷伤害{/g}，每2CL额外增加一个伤害骰（最高6d4）。"
 
   }
 ]
