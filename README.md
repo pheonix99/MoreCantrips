@@ -4,6 +4,11 @@ Extension of [Phoenix's Cantrips](https://github.com/pheonix99/PhoenixsCantrips)
 
 ## Changelog
 
+### 1.0.3
+
+2.2 update
+
+
 ### 1.0.2:
 2.1 beta compatibility
 Forgot to add new spells to some items - fixed
