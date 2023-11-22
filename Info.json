@@ -2,7 +2,7 @@
   "Id": "MoreCantrips",
   "DisplayName": "Pheonix's Cantrips - More Cantrips",
   "Author": "pheonix99",
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ManagerVersion": "0.21.3",
   "Requirements": [ "PhoenixsCantrips", "ModMenu-1.3.0" ],
   "AssemblyName": "MoreCantrips.dll",
