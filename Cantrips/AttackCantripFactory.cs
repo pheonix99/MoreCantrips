@@ -88,7 +88,17 @@ namespace MoreCantrips.Cantrips
             Logger.Log($"Creating Melee Cantrip: {name}");
             string castSysName = name + "Cast";
             SpellDescriptor[] descriptor = new SpellDescriptor[] { };
-
+            //copy-paste of code used for ConfigureBeam which produces correct descriptors in-game
+            if (damage == DamageEnergyType.Fire)
+                descriptor = new SpellDescriptor[] { SpellDescriptor.Fire };
+            else if (damage == DamageEnergyType.Acid)
+                descriptor = new SpellDescriptor[] { SpellDescriptor.Acid };
+            else if (damage == DamageEnergyType.Cold)
+                descriptor = new SpellDescriptor[] { SpellDescriptor.Cold };
+            else if (damage == DamageEnergyType.Sonic)
+                descriptor = new SpellDescriptor[] { SpellDescriptor.Sonic };
+            else if (damage == DamageEnergyType.Electricity)
+                descriptor = new SpellDescriptor[] { SpellDescriptor.Electricity };
 
             if (enabled.Invoke())
             {
